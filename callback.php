@@ -5,7 +5,7 @@
 	$request_token = $_GET['request_token'];
 	$url = 'https://getpocket.com/v3/oauth/authorize';
 	$data = array(
-		'consumer_key' => $consumer_key, 
+		'consumer_key' => $consumer_key,
 		'code' => $request_token
 	);
 	$options = array(
@@ -23,7 +23,7 @@
 		$access_token = $access_token[0];
 		$access_token = explode('=',$access_token);
 		$access_token = $access_token[1];
-		echo $access_token;
+		//echo $access_token;
 		$_SESSION['access_token'] = $access_token;
 		header('Location: confirm.php');
 	} else{

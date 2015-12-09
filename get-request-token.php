@@ -6,7 +6,7 @@
 	// first, obtain a request token
 	$url = 'https://getpocket.com/v3/oauth/request';
 	$data = array(
-		'consumer_key' => $consumer_key, 
+		'consumer_key' => $consumer_key,
 		'redirect_uri' => $redirect_uri
 	);
 	$options = array(

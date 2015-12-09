@@ -2,7 +2,7 @@
   session_start();
   session_destroy();
   require('header.php');
-  	echo '<span>You have logged out successfully.</span>';
-  	echo '<a href="./" class="button">Start Over</a>';
+  	echo '<span>Later gator!</span>';
+  	echo '<a href="./" class="button">Start over</a>';
   require('footer.php');
 ?>
