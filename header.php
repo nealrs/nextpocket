@@ -14,4 +14,4 @@
     <body>
         <div class="intro">
           <h1>NextPocket</h1>
-          <p>Add today's NextDraft articles to your Pocket queue<br>[ Made by <a href="http://nealshyam.com">Neal Shyam</a> ]</p>
+          <p>Add today's NextDraft articles to your Pocket queue<br>Made by <a href="http://nealshyam.com">Neal Shyam</a> &middot; <a href="mailto:nealrs+ndp@gmail.com?subject=NextPocket">feedback?</a></p>

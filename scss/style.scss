@@ -93,3 +93,12 @@ span{
     transform:translateY(2px);
   }
 }
+
+a {
+  color: #2BACB5;
+}
+
+a:hover:not(.button),
+a:active:not(.button){
+  color: #175e63;
+}
