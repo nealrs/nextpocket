@@ -1,7 +1,11 @@
 {
-  "name": "jshawl.com",
+  "name": "nealrs",
   "version": "0.1.0",
   "devDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-autoprefixer": "latest",
+    "grunt-csso": "latest"
   }
 }

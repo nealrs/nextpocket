@@ -1,4 +1,4 @@
-
+/*styles bro*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,700);
 
 html, body{
@@ -7,7 +7,15 @@ html, body{
   margin:0;
   font-weight:300;
   position:relative;
-  &:before, &:after{
+
+  background-image: url("../ignasi_pattern_s.png");
+  /*
+  background from http://subtlepatterns.com/one-in-a-million-s/
+  */
+  background-repeat: repeat;
+
+
+  /*&:before, &:after{
     content:'';
     z-index:-1;
     display:block;
@@ -15,11 +23,11 @@ html, body{
     width:50%;
     height:50%;
     box-shadow:inset 0 0 50px rgba(black, .2);
-  }
+  }*/
 }
 
-html{
-  
+/*html{
+
   &:before{
     background:#E84D5B;
   }
@@ -27,13 +35,13 @@ html{
     background:#F5ECD9;
     top:50%;
   }
-}
+}*/
 
 body{
   display:flex;
   align-items:center;
   justify-content:center;
-  &:before, &:after{
+  /*&:before, &:after{
     left:50%;
   }
   &:before{
@@ -42,7 +50,7 @@ body{
   &:after{
     background:#E84D5B;
     top:50%;
-  }
+  }*/
 }
 
 h1, p{
@@ -50,7 +58,7 @@ h1, p{
   font-weight:300;
 }
 h1{
-  font-size:3.35em;  
+  font-size:3.35em;
 }
 p{
   text-transform:uppercase;
