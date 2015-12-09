@@ -1,4 +1,3 @@
-#Unqueue
+#NextPocket
 
-Archives everything in your Pocket queue.
-
+Add all of today's Nextdraft articles to your Pocket queue.
