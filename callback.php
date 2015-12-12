@@ -25,7 +25,7 @@
 		$access_token = $access_token[1];
 		//echo $access_token;
 		$_SESSION['access_token'] = $access_token;
-		header('Location: confirm.php');
+		header('Location: index.php');
 	} else{
 		echo "Something went wrong. :( ";
 	}
