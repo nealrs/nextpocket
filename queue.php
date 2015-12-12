@@ -28,7 +28,7 @@
   }
 
 	echo "<span>Booyah! ".sizeof($_SESSION['to_queue'])." articles queued.</span><br>";
-	echo "<a class='button' href='logout.php'>Logout</a>";
+	echo "<a class='button' href='logout.php'>Log out</a>";
   $_SESSION['to_queue'] = '';
 	require('footer.php');
 ?>

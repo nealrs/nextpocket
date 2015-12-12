@@ -20,9 +20,9 @@
     $_SESSION['to_queue'] = $payload;
 
     echo "<a class='button' href='queue.php'>Enqueue ".sizeof($payload)." new articles</a>";
-    echo "&nbsp;&nbsp;<a class='button' href='logout.php'>Log out</a>";
+    echo "&nbsp;&nbsp;<a class='button logout' href='logout.php'>Log out</a>";
   } else {
-      echo "<a href='get-request-token.php' class='button'>Login with Pocket</a>
+      echo "<a href='get-request-token.php' class='button'>Log in with Pocket</a>
       <br><br>
       <p>Based on Jesse Shawl's <a href='http://jshawl.com/unqueue/'>Unqueue</a></p>";
     }
